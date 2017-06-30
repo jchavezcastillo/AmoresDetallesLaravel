@@ -1,0 +1,169 @@
+body{
+  /*background: #dedddd;*/
+  /*background: #ffeaea;*/
+}
+.redondeo
+{
+  webkit-border-radius: 0px 0px 100px 100px;
+  -moz-border-radius: 0px 0px 100px 100px;
+  border-radius: 0px 0px 100px 100px;
+  moz-box-shadow: 0px 0px 7px #000000;
+  -webkit-box-shadow: 0px 0px 7px #000000;
+  box-shadow: 0px 0px 7px #000000;
+}
+
+.redondeo-5px
+{
+  webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px;
+  moz-box-shadow: 7px 7px 7px #8e8e8e;
+  -webkit-box-shadow: 7px 7px 7px #8e8e8e;
+  box-shadow: 7px 7px 7px #8e8e8e;
+}
+
+.redondeo-img
+{
+  webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.red{ background: red; }
+
+.blue{ background: #222261; }
+
+.yellow{ background: #fbfbb6; }
+
+.white{ background: #ffffff; }
+
+.black{ background: #000000; }
+
+.cortinilla > div
+{
+  position: relative;
+  z-index: 1;
+  float: left;
+  height: 150px;
+}
+.cortinilla.movil > div/*movil*/
+{
+  position: relative;
+  z-index: 1;
+  float: left;
+  height: 70px;
+}
+.none-padding-left-rigth{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.container.first{
+  padding: 15px 15px 15px 15px;
+  background: #ffffff;
+}
+
+.row-first{
+  height: 50%;
+}
+.section-title{
+  padding-bottom: 8px;
+}
+.margin-top-10{
+  margin-top: 10px;
+}
+.custom-menu{
+      width: 70%;
+}
+
+.popup-container.container{
+    width: 45%;
+    max-width: 758px;
+    background: #ffffff;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+    /**/
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+}
+.display-block{
+  display: block;
+}
+.display-none{
+  display: none;
+}
+ul > li{
+  text-decoration: none;
+  list-style:none
+}
+ul > a > li{
+  text-decoration: none;
+  list-style:none
+}
+ul > a > li{
+  color: #000000;
+}
+ul > li a{
+  color: #000000;
+}
+a{
+  pointer-events: none;
+  cursor: default;
+}
+
+/*mision y visón*/
+.container-mision.container{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.cursiva{
+      font-family: cursive;
+}
+.text-size-25{
+      font-size: 25px;
+}
+
+.margin-top-50{
+      margin-top: 50px;
+}
+
+/*Eventos especiales*/
+ul.padding-bottom-2 > li {
+      padding-bottom: 2px;
+      margin-left: 15px;
+      cursor: pointer;
+}
+.margin-left-none{
+ margin-left: 0px !important; 
+}
+.title-category{
+  padding-right: 5px;
+  background-position: 0px center;
+  display: block;
+  padding-bottom: 5px;
+  cursor: default;
+  color: #333333;
+  padding-top: 5px;
+  border-bottom: medium none;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+.container-mision-valores{
+  padding-bottom: 40px;
+}
+.subrayar {text-decoration: underline; color:#000000 !important;}
+ul.menu-view li{ color: #756a6a }
+
+.img-rosario-bici{
+  width: 100%;
+  max-width: 180px;
+  webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.text-filosofia{
+  color: #756a6a; 
+}
+.text-black{
+  color: #000000 !important;
+}
