@@ -1,0 +1,3 @@
+$ $table->increments('id');
+			$table->unsigned('view_id');
+            $table->timestamps();
